@@ -21,7 +21,7 @@ export default function Testimonials() {
           </p>
         </div>
       </div>
-      <div className=" flex flex-wrap realtove z-[1] justify-center w-full feedback-container sm:justify-start ">
+      <div className=" flex flex-wrap relative z-[1] justify-center w-full feedback-container sm:justify-start ">
         {feedback.map((card) => (
           <FeedbackCard key={card.id} {...card} />
         ))}

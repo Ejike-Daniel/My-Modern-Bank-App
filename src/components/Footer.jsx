@@ -22,7 +22,7 @@ export default function Footer() {
               key={footerLink.key}
               className="flex flex-col sm:my-0 my-4 min-w-[150px]"
             >
-              <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+              <h4 className="font-poppins font-semibold text-[18px] leading-[27px] text-white">
                 {footerLink.title}
               </h4>
               <ul className="list-none mt-4">
@@ -42,9 +42,9 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full flex flex-col justify-between items-center md:flex-row pt-6 border-t border-t-[#3f3r45]">
+      <div className="w-full flex flex-col justify-between items-center md:flex-row pt-6 border-t border-t-[#3f3E45]">
         <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
-          <span className="mr-6">Copyright </span>
+          <span className="mr-3">Copyright &copy; </span>
           <span> 2024 HooBank. All Rights Reserved.</span>
         </p>
 
